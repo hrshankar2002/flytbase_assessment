@@ -23,6 +23,8 @@ Flyt Deconfliction is a Python-based toolkit for detecting and resolving 4D (spa
 | **Naive Resolution** | O(w × c) | For each waypoint (w), checks all conflicts (c) |
 | **Optimized Resolution** | O(w × (log c + r')) | Uses KD-Tree for conflict locations, spatial neighbors only (r') |
 
+<img src="docs/maxresdefault.jpg" width="820" height="400" style="border: 5px solid black;">
+
 ### Performance Impact
 - **Scalability**: Optimized algorithms scale logarithmically vs. linearly with drone count
 - **Real-time Capability**: Enables sub-second conflict detection for 100+ drones
